@@ -1,0 +1,23 @@
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: .5rem;
+  border-bottom: 1px solid gray;
+  flex-wrap: wrap;
+}
+.header h1 {
+  flex: 1;
+  padding-right: .3rem;
+  font-size: 2rem;
+}
+nav {
+  flex: 2;
+}
